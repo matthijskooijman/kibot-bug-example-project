@@ -1,0 +1,14 @@
+kibot:
+  version: 1
+
+outputs:
+- name: diff_sch_uncommitted
+  comment:  Schematic diff of uncommited changes against current HEAD
+  type: diff
+  dir: Diff
+  layers: all
+  options:
+    old: HEAD
+    old_type: git
+    only_different: true
+    pcb: false

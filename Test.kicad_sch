@@ -1,0 +1,35 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f091d1a2-d635-4c72-8cb1-7e572ce7c8c5)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 92.71 97.79) (size 41.91 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid aa408d53-f8c1-432d-88c2-6baba923ddef)
+    (property "Sheetname" "Foo" (at 92.71 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Foo.kicad_sch" (at 92.71 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "PIN" input (at 92.71 109.22 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f2d0b8d2-cf57-48c6-bb83-79ba56eb310f)
+    )
+    (instances
+      (project "Test"
+        (path "/f091d1a2-d635-4c72-8cb1-7e572ce7c8c5" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

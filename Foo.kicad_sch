@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 52ca7f54-da4d-4556-be4b-687dce992544)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "PIN" (shape input) (at 88.9 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid d099aab6-7241-42f0-833c-8c6b8e4100bc)
+  )
+)
